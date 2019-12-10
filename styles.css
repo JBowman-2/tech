@@ -1,0 +1,112 @@
+body, p, h1, h2, h3, h4 { 
+   margin: 0; 
+   padding: 0;
+} 
+
+#container {
+   background-color: #63A5F8;
+   margin: 0 auto;
+   max-width: 960px;
+   box-shadow: 5px 5px 10px grey;
+   font-family: 'Open Sans', sans-serif;
+}
+  
+header { 
+   display: flex;
+   justify-content: center;
+   background-color: #63A5F8;
+   background: linear-gradient(to top, black 0%, #63A5F8 100%);
+}
+
+header img {
+   max-width: 450px;
+   margin: 25px;
+}
+
+#bio {
+   display: flex;
+   justify-content: flex-start;
+}
+
+#bio img {
+   max-height: 225px;
+   padding: 20px;
+ }
+
+#bio-container { 
+   flex: 1;
+}
+
+#nameDate {
+   display: flex;
+   justify-content: space-between;
+   margin: 12px 20px 16px 0px;
+}
+
+#nameDate h2 {
+   margin: 0px;
+}
+
+#why {
+   color: black;
+   background-color: #f8c425;
+   margin: 0px 20px 0px 0px;
+   padding: 15px 10px 5px 15px;
+}
+
+main { 
+   color: white;
+   background: linear-gradient(to bottom, black 55%, #63A5F8 90%);
+   padding: 0;
+   margin: 0;
+}
+
+#tech {  
+   display: flex;
+   justify-content: space-around;
+   padding: 0px;
+   margin: 0px;
+}
+
+figure {
+   display: flex;
+   flex-flow: column;
+}
+
+figure img {
+    max-height: 181px;
+    display: flex;
+    justify-content: space-between;
+}
+
+figcaption {
+   font-size: .8rem;
+   color: white;
+   background: rgba(0,0,0,.6);
+   padding: 7px;
+   text-align: center;
+   position: relative;
+   bottom: 15px;
+}
+
+#plans h3 {
+   margin: 0px 20px 0px 20px;
+}
+
+#plans div {
+   color: black;
+   background-color: #f8c425;
+   margin: 10px 20px 0px 20px;
+   padding: 20px 25px 35px 25px;
+}
+
+div h4 { 
+   margin: 0px 20px 10px 0px;
+}
+
+footer { 
+   color: white;
+   background-color: #63A5F8;
+   text-align: center;
+   padding: 15px;
+}
